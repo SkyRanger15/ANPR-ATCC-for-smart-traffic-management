@@ -3,7 +3,7 @@ from object_tracker.tracker import Tracker
 
 def main():
 
-    frames = read_video("data/traffic_video.mp4")
+    frames = read_video("data/video.mp4")
 
     #object tracking
     obj_tracker = Tracker()
@@ -13,7 +13,7 @@ def main():
     output_frames = obj_tracker.process_video(frames)
 
 
-    save_video(output_frames, "output/output.avi")
+    save_video(output_frames, "output/output2.avi")
 
 if __name__ == '__main__':
     main()
