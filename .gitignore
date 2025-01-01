@@ -1,5 +1,4 @@
 yolov8x.pt
-/data
 /output
 /output_video
 object_tracker/__pycache__
