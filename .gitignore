@@ -1,5 +1,5 @@
 yolov8x.pt
-/output
+/output/*.avi
 /output_video
 object_tracker/__pycache__
 utils/__pycache__
