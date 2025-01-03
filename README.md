@@ -10,7 +10,7 @@ The objective of this project is to implement a smart traffic control system usi
 - Visualization tools
 
 ### Results
-- you can file the result video at this location : [output video](https://drive.google.com/file/d/1EaPdJwknBmywqTbAMWsV1SUV7KGEBdmU/view?usp=sharing)
+- you can file the result video at this location : [output video](https://drive.google.com/file/d/1VcIJV9AeiGbdGsQ7CrSDSOdqNZiCpz17/view?usp=sharing)
 
 ##  Workflow
 1. Execute `main.py` to perform initial vehicle detection and generate CSV file in `output/` directory
