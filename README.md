@@ -1,23 +1,23 @@
-# 🚗 ANPR and ATCC for Smart Traffic Management
+# ANPR and ATCC for Smart Traffic Management
 
-## 🎯 Project Overview
-This project implements an intelligent traffic management system utilizing Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). By leveraging Deep Learning and Object Detection techniques, the system automates traffic monitoring and control in smart city environments.
+## Project Overview
+The objective of this project is to implement a smart traffic control system using Automatic Number Plate Recognition (ANPR) and Automatic Traffic Classification and Control (ATCC). Leveraging Deep Learning, Computer Vision and Object Detection, this system enables automated traffic surveillance and management in urban environments.
 
 ### Key Features
-- 📝 Automatic Number Plate Recognition (ANPR)
-- 🚦 Automatic Traffic Classification and Control (ATCC)
-- 📊 Data interpolation for accurate tracking
-- 📈 Visualization capabilities
+- Recognition of vehicle number plates (ANPR) -
+- Traffic classification and control automation (ATCC) -
+- Data interpolation for precise tracking -
+- Visualization tools
 
 ### Results
-- you can file the result video at this location : "Provide the link of the output video."
+- you can file the result video at this location : [output video](https://drive.google.com/file/d/1EaPdJwknBmywqTbAMWsV1SUV7KGEBdmU/view?usp=sharing)
 
-## 🚀 Workflow
+##  Workflow
 1. Execute `main.py` to perform initial vehicle detection and generate CSV file in `output/` directory
 2. Run `add_missing_data.py` to perform data interpolation and generate enhanced CSV file in `output/` directory
 3. Run `visualize.py` to create visualization video using interpolated data, saved in `output_videos/` directory
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/SkyRanger15/ANPR-ATCC-for-smart-traffic-management.git
@@ -35,7 +35,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🏃‍♂️ Running the Project
+## Running the Project
 
 
 1. Replace the path to your input video and your desired output directory.
@@ -55,5 +55,5 @@ python add_missing_data.py
 python visualize.py
 ```
 
-## 📄 License
+## License
 ANPR and ATCC for Smart Traffic Management is released under the [MIT License](LICENSE), allowing you to freely use, modify, and distribute the project.
